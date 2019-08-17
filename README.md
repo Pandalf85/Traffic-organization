@@ -1,6 +1,8 @@
 # Traffic-organization
 Pandalf85
+
 Description:
+
   As an application of the max-flow problem, I considers that the travel time of a vehicle in a road network is dependent of the general traffic. So one way to improve the fluidity (and therefore reduce the occurence of traffic jams) is to organize the traffic in a real-time fashion and direct vehicle flow in the network. 
   After calculating the capacity, the max flow of each road, the tool of simulation sends a set number of vehicles (with different priorities a priori) in the network and makes them advance via simple routing tools. When a change is made to the optimal route (because of road saturation or traffic jams), the simulator records the event, and reports all of them after the simulation ends.
   
